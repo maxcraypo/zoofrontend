@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <title>Big Lad Zoo</title>
+</head>
+<body>
+<h1>Добро пожаловать в зоопарк вашей мечты!</h1>
+
+<input type="text" id="name" placeholder="name your animal">
+
+<select id="animalType">
+    <option value="1">Tiger</option>
+    <option value="2">Bear</option>
+    <option value="3"> Giraffe</option>
+    <option value="4"> Bee </option>
+    <option value="5"> Unicorn </option>
+</select>
+<button id="create"> create an animal </button>
+<br>
+<br>
+
+    <select id="animalFood">
+        <option value="meat"> meat </option>
+        <option value="leaves"> leaves </option>
+        <option value="pollen"> pollen </option>
+        <option value="marshmallows"> marshmallows</option>
+        <option value="fish"> fish </option>
+        <option value="Kevin's famous chili">Kevin's famous chili </option>
+        <option value="legumes"> legumes </option>
+         <option value="lasagna and muffins"> lasagna  and muffins </option>
+        <option value="Ham and mayonnaise"> Ham and mayonnaise </option>
+    </select>
+<button id="feed">feed</button>
+<br>
+<br>
+<input id="remove" type="text" placeholder="release an animal">
+<button id="release" class="w3-button w3-red"> remove!</button>
+<br>
+<br>
+<br>
+<div> Animals in the Zoo: </div>
+<br>
+<div id="output"></div>
+
+
+<div> Actions:  </div>
+<div id="newActions"></div>
+</body>
+</html>
